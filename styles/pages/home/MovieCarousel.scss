@@ -1,0 +1,11 @@
+.carousel {
+  .movie-item {
+    display: flex;
+    justify-content: center;
+    img {
+      border-radius: 0.07rem;
+      width: 3.55rem;
+      height: 1.5rem;
+    }
+  }
+}

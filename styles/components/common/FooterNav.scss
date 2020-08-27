@@ -1,0 +1,16 @@
+@import '../../variable';
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  padding: .35rem;
+  .item-name {
+    font-size: .1rem;
+  }
+}

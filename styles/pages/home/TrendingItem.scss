@@ -1,0 +1,26 @@
+@import '../../variable';
+
+.trending-container {
+  display: flex;
+  flex-direction: column;
+  width: 1.72rem;
+  height: 1.64rem;
+  border-radius: .05rem;
+  background-color: white;
+  overflow: hidden;
+  margin-top: .1rem;
+  .name{
+    margin: .14rem .07rem .07rem;
+    font-size: .12rem;
+    font-weight: bold;
+  }
+  .actors {
+    font-size: .1rem;
+    margin: 0 .07rem;
+    color: $text-color-light;
+  }
+  img{
+    width: 1.72rem;
+    height: 1.1rem;
+  }
+}
