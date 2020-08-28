@@ -1,4 +1,4 @@
-@import '../../variable';
+@import "../../variable";
 
 .footer-nav {
   display: flex;
@@ -9,8 +9,22 @@
   bottom: 0;
   width: 100%;
   height: $footer-height;
-  padding: .35rem;
-  .item-name {
-    font-size: .1rem;
+  padding: 0 0.35rem;
+  
+  &-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $text-color-light;
+    .footer-nav-icon {
+      font-size: 0.22rem;
+      line-height: 0.22rem;
+    }
+    .item-name {
+      font-size: 0.1rem;
+    }
+  }
+  .footer-nav-active {
+    color: $text-color-active;
   }
 }

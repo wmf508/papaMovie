@@ -2,21 +2,30 @@
 
 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: $header-height;
-  justify-content: space-between;
-  align-items: center;
   color: $text-color-grey;
-  font-size: .14rem;
-  padding: 0 .1rem;
+  font-size: 0.14rem;
+  padding: 0 0.2rem;
 
-  .titles{
-    width: 2.58rem;
+  .header-items-container {
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    .titles {
+      width: 2.58rem;
+      display: flex;
+      justify-content: space-between;
 
-    .active {
-      color: #e34743;
+      .title {
+        padding: .05rem 0;
+      }
+      .active {
+        color: $text-color-active;
+        border-bottom: .02rem solid $text-color-active;
+      }
     }
   }
-
 }
